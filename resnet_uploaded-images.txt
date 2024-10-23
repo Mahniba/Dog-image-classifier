@@ -1,0 +1,72 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 1 key-value pairs.
+Below are 1 of them:
+ 1 key:                     Dog_02.jpg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:               golden retriever
+
+           Yellow_Birth_01.jpg: 
+Real:                              Classifier: goldfinch, carduelis carduelis
+
+                 Bucket_01.jpg: 
+Real:                              Classifier:                   bucket, pail
+
+                    Dog_01.jpg: 
+Real:                              Classifier:               golden retriever
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:               golden retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+           Yellow_Birth_01.jpg: 
+Real:                              Classifier: goldfinch, carduelis carduelis  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 Bucket_01.jpg: 
+Real:                              Classifier:                   bucket, pail  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                              Classifier:               golden retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  1  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  66.7  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  1  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  66.7  Pct Corr Breed:   0.0
+
+Summary results for resnet model:
+Number of images: 4
+Number of dog images: 1
+Number of not-a-dog images: 3
+Percentage of correct matches: 0.0%
+Percentage of correctly classified dogs: 100.0%
+Percentage of correctly classified dog breeds: 0.0%
+
+Incorrectly classified dogs:
+Image: Dog_01.jpg - Pet label:  - Classifier label: golden retriever
+
+Incorrectly classified dog breeds:
+Image: Dog_02.jpg - Pet label: dog - Classifier label: golden retriever
+
+** Total Elapsed Runtime: 0:0:4
